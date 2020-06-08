@@ -18,7 +18,7 @@ public class CustomerController {
 	@RequestMapping("/getAllCustomer")
 	public List<Customer> getAllLocation()
 	{
-		System.out.println("Logging... Customer ");
+		System.out.println("Logging... Customer data from website ");
 		return customerService.getAllCustomer();
 	}
 	
